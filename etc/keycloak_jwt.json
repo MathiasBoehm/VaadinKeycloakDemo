@@ -1,0 +1,46 @@
+{
+  "exp": 1784377015,
+  "iat": 1784376715,
+  "jti": "onrtro:2a7bf5c9-b55f-397f-2534-ea14cc241fd0",
+  "iss": "http://localhost:8080/realms/springboot",
+  "aud": "account",
+  "sub": "e4d869cb-b0f3-409b-8cad-d0cf75091759",
+  "typ": "Bearer",
+  "azp": "springboot-client",
+  "sid": "9NkAjbXiskRqtqGEP88wMCm0",
+  "acr": "1",
+  "allowed-origins": [
+    "/*"
+  ],
+  "realm_access": {
+    "roles": [
+      "app_user",
+      "offline_access",
+      "uma_authorization",
+      "default-roles-springboot",
+      "app_admin"
+    ]
+  },
+  "resource_access": {
+    "account": {
+      "roles": [
+        "manage-account",
+        "manage-account-links",
+        "view-profile"
+      ]
+    },
+    "springboot-client": {
+      "roles": [
+        "admin",
+        "user"
+      ]
+    }
+  },
+  "scope": "email profile",
+  "email_verified": true,
+  "name": "Anton Admin",
+  "preferred_username": "adminuser",
+  "given_name": "Anton",
+  "family_name": "Admin",
+  "email": "adminuser@demo.org"
+}

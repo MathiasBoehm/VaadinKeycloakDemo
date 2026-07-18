@@ -24,9 +24,6 @@ spring:
             redirect-uri:  http://localhost:8081/login/oauth2/code/springboot-client-keycloak
             scope:
               - openid
-              - profile
-              - email
-              - roles
         provider:
           keycloak:
             issuer-uri: http://localhost:8080/realms/springboot

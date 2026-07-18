@@ -1,0 +1,14 @@
+###
+# Environment
+@KEYCLOAK=http://localhost:8080
+
+###
+# @name login
+POST {{KEYCLOAK}}/realms/springboot/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password
+&client_id=springboot-client
+&username=adminuser
+&password=adminuser
+
